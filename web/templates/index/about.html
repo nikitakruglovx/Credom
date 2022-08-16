@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Credom | Blockchain Digital Маркетплейс</title>
+	<link rel="icon" href="{% static 'land/img/favicon.png' static %}" type="image/png">
+
+  <link rel="stylesheet" href="{% static 'land/vendors/bootstrap/bootstrap.min.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/fontawesome/css/all.min.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/themify-icons/themify-icons.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/linericon/style.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/owl-carousel/owl.theme.default.min.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/owl-carousel/owl.carousel.min.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/flat-icon/font/flaticon.css' static %}">
+  <link rel="stylesheet" href="{% static 'land/vendors/nice-select/nice-select.css' static %}">
+
+  <link rel="stylesheet" href="{% static 'land/css/style.css' static %}">
+</head>
+<body class="bg-shape">
+
+  <!--================ Header Menu Area start =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <a class="navbar-brand logo_h" href="{% url 'index' %}">
+            <img style='width: 50px; height: 50px;' src="{% static 'land/img/logo.png' static %}" alt="">
+            <img style='width: 120px; height: 30px;' class="logo-compact" src="{% static 'images/logo-text.png' static %}" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">Дом</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="{% url 'aboutproject' %}">О проекте</a></li> 
+            </ul>
+
+            <div class="nav-right text-center text-lg-right py-4 py-lg-0">
+              <a class="button" href="{% url 'home' %}">Войти</a>
+            </div>
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header><br><br>
+  <!--================Header Menu Area =================-->
+
+
+  <!--================Hero Banner Area Start =================-->
+<div class="content-body">
+  <div class="container-fluid">
+    <div class="form-head d-flex mb-3 align-items-start">
+      <div class="mr-auto d-none d-lg-block">
+        <h2 class="text-black font-w600 mb-0"></h2>
+      </div>
+    </div><br><br>
+    <div class="col-xl-12">
+      <div class="card">
+        <div class="card-body">
+            <center>
+                <br><br>
+                <h2>Добро пожаловать в свободный креативный IT дом CREDOM</h2>
+            </center><br><br>
+            <center>
+                <hr>
+                <img src="{% static 'images/decentralization.png' static %}" style="width: 80px; height: 80px;"><br><br>
+                <h3>Credom - это децентрализированая платформа где:</h3>
+                  <li>
+                    🌱 -Можете продавать свои товары за криптовалюту
+                  </li>
+                  <li>
+                    🗳 -Преобретать товары за криптовалюту
+                  </li>
+                  <li>
+                    📈 -Развивать себя и свои идеи
+                  </li>
+                  <li>
+                    ♻️ -Обмениваться ресурсами
+                  </li>
+                  <li>
+                    🔒 -Безопасно хранить данные
+                  </li>
+            </center><br><br>
+            <center>
+                <hr>
+                <img src="{% static 'images/security.png' static %}" style="width: 80px; height: 80px;"><br><br>
+                <h3>Не зависеть. Безопасно. Приватно.</h3>
+                <li>
+                    📦 -Мы не храним приватные данные
+                </li>
+                <li>
+                    👁 -Не следим за пользователями
+                </li>
+                <li>
+                    🚸 -Мы не регулируем аккауанты,объекты или средства
+                </li>
+            </center><br>
+        </div>
+    </div>
+  </div>
+</div><br>
+  <!--================Search Package section End =================-->
+
+
+  <!--================Blog section Start =================-->
+  
+  <!--================Blog section End =================-->
+
+
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This project is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="{% url 'index' %}" target="_blank">Credom</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================ End footer Area ================= -->
+
+
+
+
+  <script src="{% static 'land/vendors/jquery/jquery-3.2.1.min.js' static %}"></script>
+  <script src="{% static 'land/vendors/bootstrap/bootstrap.bundle.min.js' static %}"></script>
+  <script src="{% static 'land/vendors/owl-carousel/owl.carousel.min.js' static %}"></script>
+  <script src="{% static 'land/vendors/nice-select/jquery.nice-select.min.js' static %}"></script>
+  <script src="{% static 'land/js/jquery.ajaxchimp.min.js' static %}"></script>
+  <script src="{% static 'land/js/mail-script.js' static %}"></script>
+  <script src="{% static 'land/js/skrollr.min.js' static %}"></script>
+  <script src="{% static 'land/js/main.js' static %}"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[RU]
+Перед установкой Credom
+1. Проверьте или установите Python3.8.9 и выше.
+2. Активируйте виртуальное окружение командой: python3 -m venv env, cd env/bin, source activate
+3. Загрузите все необходимые зависимости: pip install -r requirements.txt
+4. Создайте базу данных PostgreSql и пропишите ваши данные в файле проекта settings.py на 56 строке
+5. Пропишите данные PostgreSql так же в файле проекта connect.py
+6. python3 manage.py runserver
+
+[EN]
+Before installing Credom
+1. Check or install Python3.8.9 or higher.
+2. activate the virtual environment with the command: python3 -m venv env, cd env/bin, source activate
+3. Load all necessary dependencies: pip install -r requirements.txt
+4. Create a PostgreSql database and write your data in the settings.py project file on line 56
+5. Write your PostgreSql data in the connect.py project file as well.
+6. python3 manage.py runserver
